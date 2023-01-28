@@ -1,0 +1,23 @@
+
+  b{
+    color: rgb(242, 240, 251);
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  h2{
+    color:rgb(89, 26, 128);
+    font-family: 'Sedgwick Ave Display', cursive;
+  }
+  h5{
+    color:rgb(66, 19, 95);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+  p{
+    color:rgb(112, 27, 165);
+  }
+  a{
+    color:rgb(143, 42, 208);
+  }
+  i{
+    color: rgb(135, 0, 219);
+  }

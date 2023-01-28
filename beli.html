@@ -1,0 +1,222 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> CyberPunk - Pembelian</title>
+  <img src="img/cyber.jpeg" alt="" width="1349" height="250pt">
+
+  <nav class="navbar navbar-expand-lg navbar-dark " style=" background-color: rgb(143, 42, 208);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><b>HOME</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b>Produk</b> 
+            </a>
+            <ul class="dropdown-menu" style="background-color: rgb(208, 133, 255);">
+              <li><a class="dropdown-item" href="baju.html" style="color: rgb(48, 9, 71);">Baju</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="hoodie.html" style="color: rgb(48, 9, 71);">Hoodie</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="case.html" style="color: rgb(48, 9, 71);">Case</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="topi.html" style="color: rgb(48, 9, 71);">Topi</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="beli.html"><b>Pembelian</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="member.html"><b>Daftar Member</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontak.html"><b>Contact</b></a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+</head>
+<body>
+  <br>
+  <br>
+<h2 align="center">Pemesanan</h2>
+<br>
+<br>
+<form action="">
+    <table align="center">
+        <tr>
+            <td><h5>NAMA LENGKAP </h5</td>
+        </tr>
+        <tr>
+          <td><input type="text" name="txtnamafirst" class="form-control" id="first" placeholder="first name"></td>
+          <td><input type="text" name="txtnamalast" class="form-control" id="last" placeholder="last name"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><p></p></td>
+      </tr>
+        <tr>
+            <td><h5>No. Hp</h5> </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="text" class="form-control" name="txthp" size="45" pattern="[1-0]"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><p></p></td>
+      </tr>
+      <tr>
+          <td><h5>Jenis Kelamin</h5></td>
+      </tr>
+      <tr>
+        <td><input name="pilih" class="form-check-input" type="radio" id=""> Pria</td>
+        <td><input name="pilih" class="form-check-input" type="radio" id=""> Wanita</td>
+  </tr>
+  <tr>
+    <td colspan="2"><p></p></td>
+  </tr>
+      <tr>
+            <td><h5>ALAMAT</h5></td>
+      </tr>
+      <tr>
+          <td colspan="2"><textarea name="txtalamat" class="form-control" id="alamat" cols="46" rows="3"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2"><p></p></td>
+      </tr>
+      <tr>
+          <td><h5>KODE POS</h5> </td>
+      </tr>
+      <tr>
+          <td colspan="2"><input type="text" class="form-control" name="txtpos" size="45" pattern="[0-9]{5}"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><p></p></td>
+      </tr>
+      <tr>
+        <td><h5>Email</h5></td>
+      </tr>
+      <tr>
+          <td colspan="2"><input type="email" class="form-control" name="txtemail" size="45" id="email" placeholder="example@asia.ac.id"> </td>
+      </tr>
+      <tr>
+        <td colspan="2"><p></p></td>
+      </tr>
+      <tr>
+    <td><h5>Baju</h5></td>
+    <td><h5>Hoodie</h5></td>
+    </tr>
+    <tr>
+        <td>
+          <!-- <select name="txtbaju" id="">
+          <option value="none">None</option>
+          <option value="blue">Kaos CyberPunk (Blue)</option>
+          <option value="kaos1">Kaos CyberPunk 1</option>
+          <option value="kaos2">Kaos CyberPunk 2</option>
+        </select> -->
+        <select class="form-select btn-outline-success" aria-label="Default select example">
+          <option selected>PILIH</option>
+          <option value="blue">Kaos CyberPunk (Blue)</option>
+          <option value="kaos1">Kaos CyberPunk 1</option>
+          <option value="kaos2">Kaos CyberPunk 2</option>
+        </select>
+      </td>
+        <td>
+          <!-- <select name="txthoodie" id="">
+          <option value="none">None</option>
+          <option value="hoodie1">Hoodie CyberPunk 1</option>
+          <option value="hoodie2">Hoodie CyberPunk 2</option>
+          <option value="samurai">Hoodie CyberPunk (Samurai)</option>
+          <option value="hoodie3">Hoodie CyberPunk 3</option>
+          <option value="hoodie4">Hoodie CyberPunk 4</option>
+        </select> -->
+        <select class="form-select btn-outline-success" aria-label="Default select example">
+          <option selected>PILIH</option>
+          <option value="hoodie1">Hoodie CyberPunk 1</option>
+          <option value="hoodie2">Hoodie CyberPunk 2</option>
+          <option value="samurai">Hoodie CyberPunk (Samurai)</option>
+          <option value="hoodie3">Hoodie CyberPunk 3</option>
+          <option value="hoodie4">Hoodie CyberPunk 4</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><p></p></td>
+    </tr>
+    <tr>
+      <td><h5>Case</h5></td>
+      <td><h5>Topi</h5></td>
+    </tr>
+    <tr>
+      <td>
+        <select class="form-select btn-outline-success" aria-label="Default select example">
+          <option selected>PILIH</option>
+          <option value="samsung">Samsung Galaxy Note 4</option>
+          <option value="redmi">Redmi Note 9 Pro</option>
+        </select>
+        <!-- <select name="txtcase" id="">
+        <option value="none">None</option>
+        <option value="samsung">Samsung Galaxy Note 4</option>
+        <option value="redmi">Redmi Note 9 Pro</option>
+      </select> -->
+    </td>
+      <td>
+        <select class="form-select btn-outline-success" aria-label="Default select example">
+          <option selected>PILIH</option>
+          <option value="black">Topi (Black)</option>
+          <option value="white">Topi (White)</option>
+        </select>
+        <!-- <select name="txttopi" id="">
+        <option value="none">None</option>
+        <option value="black">Topi (Black)</option>
+        <option value="white">Topi (White)</option>
+      </select> -->
+    </td>
+    </tr>
+      <tr>
+        <td colspan="2"><p></p></td>
+      </tr>
+      <tr>
+            <td><button type="submit" class="btn btn-success">BELI</button></td>
+            <td><button type="reset" class="btn btn-danger">BATAL</button></td>
+      </tr>
+    </table>
+</form>
+
+</body>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 ">
+    <p class="col-md-4 mb-0 ">&copy; 2022 Syahrul Trinandi. 20201259</p>
+
+    <a href="index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-success"><p>Home</p></a></li>
+      <li class="nav-item"><a href="beli.html" class="nav-link px-2 text-success"><p>Pembelian</p></a></li>
+      <li class="nav-item"><a href="member.html" class="nav-link px-2 text-success"><p>Member</p></a></li>
+      <li class="nav-item"><a href="kontak.html" class="nav-link px-2 text-success"><p>Contact</p></a></li>
+    </ul>
+  </footer>
+</div>
+
+</html>
